@@ -69,8 +69,8 @@ $(info COIN  = [$(COIN)])
 
 ifeq ($(COIN),ATOM)
 # Main app configuration
-APPNAME = "Cosmos"
-APPPATH = "44'/118'" --path "44'/60'"
+APPNAME = "MediBloc"
+APPPATH = "44'/118'" --path "44'/60'" --path "44'/371'"
 else
 define error_message
 
